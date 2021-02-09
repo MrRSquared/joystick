@@ -12,7 +12,8 @@
     "files": [
         "main.blocks",
         "main.ts",
-        "README.md"
+        "README.md",
+        "Custom.ts"
     ],
     "testFiles": [
         "test.ts"
