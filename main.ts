@@ -26,6 +26,6 @@ joystickbit.onButtonEvent(joystickbit.JoystickBitPin.P12, joystickbit.ButtonType
 joystickbit.initJoystickBit()
 radio.setGroup(1)
 basic.forever(function () {
-    radio.sendValue("xAxis", Oscats.convert(joystickbit.getRockerValue(joystickbit.rockerType.X)))
-    radio.sendValue("yAxis", Oscats.convert(joystickbit.getRockerValue(joystickbit.rockerType.Y)))
+    radio.sendValue("xAxis", OscatsJoystick.convert(joystickbit.getRockerValue(joystickbit.rockerType.X)))
+    radio.sendValue("yAxis", OscatsJoystick.convert(joystickbit.getRockerValue(joystickbit.rockerType.Y)))
 })

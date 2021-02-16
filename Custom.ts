@@ -18,7 +18,7 @@ input.onButtonPressed(Button.B, function () {//Trigger Auto
     radio.sendValue("mode", mode)  
 })
 /** * Custom blocks */ //% weight=100 color=#d42926 icon="\uf1b0"
-namespace Oscats{
+namespace OscatsJoystick{
     //% block
     export function getMode(){
         return mode;
